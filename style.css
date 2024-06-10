@@ -416,6 +416,7 @@ PROJECT SECTION
     font-weight: 500;
     padding: 3px 4px;
     border: 1pt solid var(--main-green-color);
+    color: black;
     /* color: white; */
     /* background-color: var(--main-green-color); */
 }
