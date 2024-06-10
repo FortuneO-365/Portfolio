@@ -1,7 +1,6 @@
 let navButton = document.getElementById("nav-icon");
 let nav = document.getElementById("sec-nav-cont");
 let sections = document.querySelectorAll('section');
-let b
 
 navButton.onclick = function(){
     nav.classList.add("active");

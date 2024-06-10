@@ -13,6 +13,9 @@ FULL BODY
     --typo-font: 'Inconsolata';
     --main-green-color: #23714d;
     --main-yellow-color: #f1deba;
+    --secondary-yellow-color: #c9af87;
+    --dark-green-color: #1e5c3e ;
+    --light-green-color: #309968;
     --main-black-color: #021401;
     --main-h1-size: 1.8em;
     --name-size: 1.2em;
@@ -96,7 +99,7 @@ HEADER
     left: 0;
     right: 0;
     top: 0;
-    background-color: color-mix(in srgb, white 10%, transparent 50%);
+    background-color: #ffffff52;
 }
 
 #name-card{
@@ -154,7 +157,8 @@ HEADER
     bottom: 0;
     right: 0;
     position: fixed;
-    background-color: color-mix(in srgb, black 20%, var(--main-yellow-color) 80%);
+    /* background-color: color-mix(in srgb, black 20%, var(--main-yellow-color) 80%); */
+    background-color: var(--secondary-yellow-color);
     width: 90%;
     max-width: 500px;
 }
@@ -437,14 +441,16 @@ PROJECT SECTION
     animation: move-up both linear;
     animation-timeline: view();
     animation-range: entry 5% cover 30%;
-    border: 3px solid color-mix(in srgb, black 50%, var(--main-green-color) 50%);
+    border: 3px solid var(--dark-green-color);
     color: var(--main-yellow-color);
-    background-color: color-mix(in srgb, transparent 70%, white 30%);
+    /* background-color: color-mix(in srgb, transparent 70%, white 30%); */
+    background-color: var(--light-green-color);
 }
 
 #hire >  button:hover{
     color: var(--main-green-color);
-    background-color: color-mix(in srgb, var(--main-yellow-color)90%, white 10%);
+    /* background-color: color-mix(in srgb, var(--main-yellow-color)90%, white 10%); */
+    background-color: var(--main-yellow-color);
 }
 
 
@@ -507,7 +513,8 @@ SKILL SECTION
 *****************************/
 
 #Skill-section{
-    background-color: color-mix(in srgb, white 10%, var(--main-green-color) 80%);
+    /* background-color: color-mix(in srgb, white 10%, var(--main-green-color) 80%); */
+    background-color: var(--light-green-color);
     color: var(--main-yellow-color);
     padding-bottom: 100px;
 }
@@ -675,14 +682,16 @@ form > button{
     animation: move-up both linear;
     animation-timeline: view();
     animation-range: entry 5% cover 30%;
-    border: 3px solid color-mix(in srgb, black 50%, var(--main-yellow-color) 50%);
+    border: 3px solid var(--secondary-yellow-color);
     color: var(--main-green-color);
-    background-color: color-mix(in srgb, transparent 10%, white 90%);
+    /* background-color: color-mix(in srgb, transparent 10%, white 90%); */
+    background-color: #fffffffb;
 }
 
 form > button:hover{
     color: var(--main-yellow-color);
-    background-color: color-mix(in srgb, var(--main-green-color)90%, white 10%);
+    /* background-color: color-mix(in srgb, var(--main-green-color)90%, white 10%); */
+    background-color: var(--light-green-color);
 }
 
 
@@ -693,7 +702,8 @@ FOOTER SECTION
 #Footer-section{
     min-height: auto;
     padding: 10px;
-    background-color: color-mix(in srgb, black 10%, var(--main-green-color) 90%);
+    /* background-color: color-mix(in srgb, black 10%, var(--main-green-color) 90%); */
+    background-color: var(--dark-green-color);
     color: var(--main-yellow-color);
 }
 
